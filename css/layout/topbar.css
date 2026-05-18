@@ -1,0 +1,36 @@
+/* TOPBAR */
+.topbar {
+  background: var(--darker);
+  color: var(--white);
+  padding: 8px 0;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+}
+
+.topbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar a {
+  color: var(--primary-light);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.topbar a:hover {
+  color: var(--white);
+}
+
+.topbar-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.topbar-right a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

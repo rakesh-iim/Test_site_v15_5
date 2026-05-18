@@ -1,0 +1,7 @@
+/* SHOWCASE SECTION */
+/* Showcase reuses .services-grid and .service-card from services.css */
+/* This file is reserved for any showcase-specific styles */
+
+.work-showcase {
+  /* Section uses inline styles; extend here as needed */
+}
